@@ -1,5 +1,11 @@
+import 'babel-polyfill';
 import '../css/main.scss';
-import utils from './utils.ts';
 
 console.log('hello world');
-utils.show();
+
+const asyncLoading = async () => {
+    const utils = await import('./utils.ts');
+    utils.default.show();
+}
+
+asyncLoading();

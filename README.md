@@ -1,4 +1,4 @@
-# parcel_starter
+# Parcel React Starter
 
 - [Parcel](http://www.css88.com/doc/parcel/getting_started.html) 是一個Web應用程序 打包器(bundler) ，與以往的開發人員使用的打包器有所不同。它利用多核處理提供極快的性能，並且你不需要進行任何配置。
 - Parcel 内置了一個開發伺服器，這會在你更改文件時自動重建你的應用程序，並支持 模組熱替換 ，以便你快速開發。
